@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv310/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets to exclude
+datasets/nuscenes/
+datasets/talk2car/
+data/nuscenes/
+
+# Temporary and generated files
+test_outputs/
+outputs/*
+!outputs/.gitkeep
